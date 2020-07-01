@@ -13,3 +13,15 @@ RUN java --version
 #installing git
 RUN yum -y  install git 
 RUN git --version
+
+#installing Python3
+RUN yum -y install python3
+RUN python3 --version
+
+#installing python add-on packages
+RUN yum -y install python3-requests
+
+#installing python2
+RUN yum -y install python2
+
+
