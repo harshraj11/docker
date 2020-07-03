@@ -24,4 +24,6 @@ RUN yum -y install python3-requests
 #installing python2
 RUN yum -y install python2
 
+RUN yum --allowerasing install perl
+perl -V:version
 
